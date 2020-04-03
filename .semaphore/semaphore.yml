@@ -19,4 +19,4 @@ blocks:
             - bundle install --deployment --path vendor/bundle
             - cache store
             - 'bundle exec rake db:setup'
-            - bundle exec rspec
+            - bundle exec rake
